@@ -1,0 +1,43 @@
+.app {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.navBar {
+    width: 100%;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+ul.horizontal li{
+    float: left;
+}
+
+ul.horizontal li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.horizontal li a:hover{
+    background-color: black;
+}
+
+.activeLink{
+    background-color: blueviolet;
+}
+
+.container {
+    height: 93vh;
+    width: 100%;
+}
